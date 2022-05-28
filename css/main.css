@@ -1,0 +1,83 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+ }
+ .flex {
+     display: flex;
+ }
+ .grid {
+     display: grid;
+ }
+header {
+    background:#bdbdbd;
+}
+.container {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.logo-phink {
+    padding: 1rem 0;
+    font-family: "poppins";
+    font-weight: 900;
+    justify-content: space-between;
+}
+.logo-text {
+    font-size: 2.4em;
+    color: #1a1a1a;
+}
+.bek {
+    color: #4846ff;
+}
+.logo-name {
+    color:#b3b3b3;
+    font-size: 0.83em;
+    font-family: "Montserrat";
+    margin-top: -0.5em;
+}
+.about-my {
+    position: relative;
+}
+.my-text-1 {
+    font-size: 9.7;
+    color: #1c1c1c49;
+}
+.my-info {
+    align-items: center;
+    flex-direction: column;
+}
+.my-img {
+    height: 500px;
+    width: 430px;
+    max-width: 100%;
+}
+.my-img img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.said-item {
+    display: none;
+}
+.said-item.active {
+    display: block;
+}
+.my-details {
+    justify-content: flex-start;
+    color: #000000;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Glacial Indifference";
+}
+.details-text-1 {
+    font-size: 1.9em;
+}
+.user-icons {
+    margin: 1rem 0;
+    align-items: center;
+    gap: 1rem;
+}
